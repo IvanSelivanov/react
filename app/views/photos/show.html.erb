@@ -1,0 +1,10 @@
+<div class="card">
+  <img class="card-img-top" src="<%= @photo.image.url :large %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><%= @photo.name %></h5>
+    <p class="card-text"><%= @photo.description %></p>
+    <%= react_component 'App', props: JSON.parse(@photo.to_json) %>
+  </div>
+</div>
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

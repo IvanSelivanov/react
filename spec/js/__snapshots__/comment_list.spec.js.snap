@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentListP Matches shapshot 1`] = `
+<ul
+  className="list-unstyled ml-5"
+>
+  <Comment
+    author="1"
+    id="5a588dd5dacf99164b5ddead"
+    key="5a588dd5dacf99164b5ddead"
+    text="123"
+  >
+    id
+    5a588ddddacf99164b5ddeae
+    author
+    er
+    text
+    fghf
+    parent_type
+    Comment
+    parent_id
+    5a588dd5dacf99164b5ddead
+    comments
+    id
+    5a588ed1dacf99164b5ddeb3
+    author
+    rt
+    text
+    ewrtewr
+    parent_type
+    Comment
+    parent_id
+    5a588ddddacf99164b5ddeae
+    comments
+    id
+    5a589761dacf99226ebba828
+    author
+    tyd
+    text
+    ytdk
+    parent_type
+    Comment
+    parent_id
+    5a588dd5dacf99164b5ddead
+    comments
+  </Comment>
+  <Comment
+    author="dsfgf"
+    id="5a588e4ddacf99164b5ddeaf"
+    key="5a588e4ddacf99164b5ddeaf"
+    text="gdhjg"
+  >
+    id
+    5a588e54dacf99164b5ddeb0
+    author
+    fgdjh
+    text
+    ghj
+    parent_type
+    Comment
+    parent_id
+    5a588e4ddacf99164b5ddeaf
+    comments
+  </Comment>
+</ul>
+`;

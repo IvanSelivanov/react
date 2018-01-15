@@ -1,0 +1,17 @@
+<h1>Photos</h1>
+<div class="clearfix">
+  <% @photos.each do |photo| %>
+    <div class="card float-left m-1" style="width: 18rem;">
+      <img class="card-img-top p-2" src="<%= photo.image.url :small %>" alt="<%= photo.name %>">
+      <div class="card-body">
+        <h5 class="card-title"><%= photo.name %></h5>
+        <p class="card-text"><%= photo.description %></p>
+        <%= link_to 'Edit', edit_photo_path(photo) %>
+        <%= link_to 'Delete', photo_path(photo), method: :delete %>
+      </div>
+    </div>
+  <% end %>
+</div>
+<br>
+
+<%= link_to 'New Photo', new_photo_path %>
